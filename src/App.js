@@ -1,4 +1,4 @@
-import './app.css';
+import './App.css';
 import { useEffect, useMemo, useState } from 'react';
 import Timer from './components/Timer';
 import Trivia from './components/Trivia';
