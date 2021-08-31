@@ -106,9 +106,7 @@ function App() {
       setEarned(moneyPyramid.find((m) => m.id === questionNumber - 1).amount);
   }, [moneyPyramid, questionNumber]);
 
-  const handleClick = () => {
-    
-  };
+  const handleClick = () => {};
 
   return (
     <div className='app'>
