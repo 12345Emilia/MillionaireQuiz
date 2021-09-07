@@ -110,6 +110,8 @@ function App() {
 
   return (
     <div className='app'>
+      <h1 className='title'>Welcome to Americas Game Show</h1>
+      <h3 className='title2'>Who Wants to Be a Millionaire</h3>
       {username ? (
         <>
           <div className='main'>
